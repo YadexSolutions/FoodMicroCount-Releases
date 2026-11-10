@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  If you use FoodMicro Count in research, teaching, or laboratory evaluation,
+  please cite the software version you used.
+type: software
+title: FoodMicro Count
+authors:
+  - family-names: Gyasi
+    given-names: Yaw Agyei
+    orcid: https://orcid.org/0009-0001-3343-4273
+    affiliation: >-
+      Food Science and Technology Laboratories,
+      Kwame Nkrumah University of Science and Technology, Ghana
+version: 1.0.0-rc.1
+date-released: 2026-11-10
+url: https://github.com/YadexSolutions/FoodMicroCount-Releases
+repository-code: https://github.com/YadexSolutions/FoodMicroCount-Releases
+repository-artifact: https://github.com/YadexSolutions/FoodMicroCount-Releases/releases/tag/v1.0.0-rc.1
+license: GPL-3.0-or-later
+abstract: >-
+  FoodMicro Count is open-source Windows desktop software for analyst-reviewed
+  microbial colony counting, plate-image analysis, editable detection markers,
+  quantitative calculations, and result export. Version 1.0.0-rc.1 is a public
+  evaluation release; independent laboratory validation is pending.
+keywords:
+  - microbiology
+  - food microbiology
+  - colony counting
+  - image analysis
+  - laboratory software
