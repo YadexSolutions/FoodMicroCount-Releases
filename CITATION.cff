@@ -5,8 +5,8 @@ message: >-
 type: software
 title: FoodMicro Count
 authors:
-  - family-names: Gyasi
-    given-names: Yaw Agyei
+  - family-names: Agyei Gyasi
+    given-names: Yaw
     orcid: https://orcid.org/0009-0001-3343-4273
     affiliation: >-
       Food Science and Technology Laboratories,
