@@ -1,0 +1,980 @@
+{
+  "version": "0.1.3-post2",
+  "retrieved": "2026-10-14",
+  "sources": {
+    "pca": {
+      "url": "https://documents.thermofisher.com/TFS-Assets/MBD/Specification-Sheets/PS-CM0325-V4.pdf",
+      "document": "BT-SPEC-0127; PS-CM0325-V4",
+      "revision": "V4 (filename); date not stated",
+      "kind": "manufacturer specification",
+      "link_rechecked_at": "2026-10-15"
+    },
+    "vrbla": {
+      "url": "https://www.thermofisher.com/order/catalog/product/CM0107B",
+      "document": "Oxoid VRBLA product description",
+      "revision": null,
+      "kind": "manufacturer product page; separate IFU not retrieved"
+    },
+    "vrbga": {
+      "url": "https://www.thermofisher.com/order/catalog/product/CM0485R",
+      "document": "Oxoid VRBGA product description",
+      "revision": null,
+      "kind": "manufacturer product page; separate IFU not retrieved"
+    },
+    "myp": {
+      "url": "https://www.himedialabs.com/media/TD/M636F.pdf",
+      "document": "HiMedia M636F technical data",
+      "revision": "03/2017",
+      "kind": "manufacturer technical sheet"
+    },
+    "tsc": {
+      "url": "https://www.himedialabs.com/media/TD/M837I.pdf",
+      "document": "HiMedia M837I technical data",
+      "revision": "03/2024",
+      "kind": "manufacturer technical sheet"
+    },
+    "sfp": {
+      "url": "https://www.thermofisher.com/order/catalog/product/BO0634M",
+      "document": "Oxoid Perfringens Agar Base TSC/SFP",
+      "revision": null,
+      "kind": "manufacturer product page; formulation-specific SFP supplement IFU unresolved"
+    },
+    "msa": {
+      "url": "https://documents.thermofisher.com/TFS-Assets/LSG/manuals/IFU1580.pdf",
+      "document": "Remel MSA IFU1580",
+      "revision": "10 March 2011",
+      "kind": "manufacturer IFU",
+      "link_rechecked_at": "2026-10-15"
+    },
+    "bp": {
+      "url": "https://www.thermofisher.com/order/catalog/product/CM0275R",
+      "document": "Oxoid Baird-Parker Agar",
+      "revision": null,
+      "kind": "manufacturer product page; separate IFU not retrieved"
+    },
+    "drbc": {
+      "url": "https://documents.thermofisher.com/TFS-Assets/MBD/Specification-Sheets/DRBC-TM1339-TM1825-TM1794.pdf",
+      "document": "DRBC TM1339/TM1825/TM1794",
+      "revision": "January 2014",
+      "kind": "manufacturer technical specification",
+      "link_rechecked_at": "2026-10-15"
+    },
+    "dg18": {
+      "url": "https://www.merckmillipore.com/deepweb/assets/sigmaaldrich/product/documents/110/171/146161dat-mk.pdf",
+      "document": "ReadyPlate DG18 1.46161 technical data",
+      "revision": null,
+      "kind": "manufacturer technical sheet; revision unresolved"
+    },
+    "mrs": {
+      "url": "https://www.thermofisher.com/TFS-Assets/MBD/Instructions/MBD_BT_IFU-0494%20CM0361T%20MRS%20AGAR.pdf",
+      "document": "MBD-BT-IFU-0494",
+      "revision": "Version 3.0, 27 May 2025",
+      "kind": "manufacturer IFU; English pages 1–4"
+    },
+    "pda": {
+      "url": "https://www.thermofisher.com/order/catalog/product/CM0139B",
+      "document": "Oxoid Potato Dextrose Agar",
+      "revision": null,
+      "kind": "manufacturer product page; BT-SPEC-0096 download inaccessible"
+    },
+    "emb": {
+      "url": "https://www.thermofisher.com/order/catalog/product/CM0069B",
+      "document": "Oxoid EMB Agar",
+      "revision": null,
+      "kind": "manufacturer product page; confirmation suitability method-specific"
+    },
+    "cetrimide": {
+      "url": "https://www.himedialabs.com/media/TD/M024.pdf",
+      "document": "HiMedia M024 technical data",
+      "revision": null,
+      "kind": "manufacturer technical sheet reviewed"
+    },
+    "slanetz": {
+      "url": "https://www.himedialabs.com/media/TD/M612.pdf",
+      "document": "HiMedia M612 technical data",
+      "revision": "04/2024",
+      "kind": "manufacturer technical sheet reviewed"
+    },
+    "hicrome_bacillus": {
+      "url": "https://www.himedialabs.com/media/TD/M1651.pdf",
+      "document": "HiMedia M1651 technical data",
+      "revision": null,
+      "kind": "manufacturer technical sheet reviewed"
+    },
+    "hicrome_ec": {
+      "url": "https://www.himedialabs.com/media/TD/M1295.pdf",
+      "document": "HiMedia M1295 technical data",
+      "revision": "08/2026",
+      "kind": "manufacturer technical sheet reviewed"
+    },
+    "neogen_rec": {
+      "url": "https://media.neogen.com/m/2ccdb4cd6aaf9e9d/",
+      "document": "Neogen Rapid E. coli/Coliform interpretation guide",
+      "revision": "FS00592_0823; copyright 2023",
+      "kind": "manufacturer guide reviewed; REC specifically, not standard EC film"
+    },
+    "neogen_reader": {
+      "url": "https://media.neogen.com/m/509761cb42a30adb/original/Microbial-Interpretation-Neogen-Petrifilm-Plate-Reader-Advanced_Technical-Bulletin_en-US_FS01699.pdf",
+      "document": "Neogen Plate Reader Advanced technical bulletin",
+      "revision": "FS01699; date not independently established",
+      "kind": "vendor study, not independent evaluation of FoodMicro"
+    },
+    "himedia-pca-m091": {
+      "url": "https://www.himedialabs.com/media/TD/M091.pdf",
+      "document": "HiMedia Plate Count Agar M091 technical data",
+      "revision": null,
+      "kind": "manufacturer technical data"
+    },
+    "oxoid-macconkey-cm0007": {
+      "url": "https://documents.thermofisher.com/TFS-Assets/MBD/Specification-Sheets/PS-CM0007.pdf",
+      "document": "Oxoid MacConkey Agar CM0007 product specification",
+      "revision": null,
+      "kind": "manufacturer specification"
+    },
+    "dg18_oxoid": {
+      "document": "Thermo Scientific Oxoid DG18 Agar CM0729 product specification",
+      "url": "https://assets.thermofisher.com/TFS-Assets/MBD/Specification-Sheets/PS-CM0729-V4.pdf",
+      "revision": "V4; see sheet",
+      "scope": "Example quality control morphology for the Oxoid formulation; not a universal size limit"
+    }
+  },
+  "media": {
+    "PCA": {
+      "name": "Plate Count Agar (Tryptone Glucose Yeast Agar)",
+      "abbreviations": [
+        "PCA"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0325B/R/T",
+      "application": "Aerobic plate count",
+      "principle": "General growth medium; no differential species indicator.",
+      "positive_appearance": "QC colonies are straw, commonly 0.5–3 mm for listed strains. Mixed pale and pinpoint growth may occur.",
+      "negative_or_other_appearance": "No species-specific negative colour.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Count reflects organisms recoverable under the chosen conditions; no species identification.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Source QC: 30 ±2°C, 48 ±2 h or 72 ±3 h; FDA APC protocol differs.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "FDA BAM APC January 2026",
+        "ISO 4833 (edition to be selected)",
+        "APHA 2015 (lab controlled copy needed)"
+      ],
+      "sources": [
+        "pca"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "any",
+        "appearance_summary": "Candidates across colony colours. Start with both bright and dark local contrast."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Colonies vary in colour and size on plate count agar; include visible growth that meets the method criteria."
+    },
+    "VRBLA": {
+      "name": "Violet Red Bile Lactose Agar / Violet Red Bile Agar",
+      "abbreviations": [
+        "VRBLA"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0107B/R/T",
+      "application": "VRBLA",
+      "principle": "Lactose fermentation, neutral-red indicator; bile salts/crystal violet suppress many Gram-positive organisms.",
+      "positive_appearance": "Rapid lactose fermenters: red-purple colony with red-purple halo.",
+      "negative_or_other_appearance": "Late fermenters may be pale with greenish halos.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Coliform appearance does not establish E. coli. Precipitation zones are not separate colonies.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Exact time/temperature from coliform or E. coli method.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 4832 (edition pending)",
+        "APHA coliform method (controlled copy needed)"
+      ],
+      "sources": [
+        "vrbla"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "pink-purple",
+        "appearance_summary": "Pink/purple centres. Precipitation alone is not a second colony."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Typical lactose-fermenting colonies on violet red bile lactose agar are red to purple and may have a halo."
+    },
+    "VRBGA": {
+      "name": "Violet Red Bile Glucose Agar",
+      "abbreviations": [
+        "VRBGA"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0485B/R/T",
+      "application": "VRBGA",
+      "principle": "Glucose fermentation with neutral-red indicator and inhibitory bile/crystal violet.",
+      "positive_appearance": "Purple-pink colonies.",
+      "negative_or_other_appearance": "Non-target growth may be suppressed; unusual colonies require review.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Group-level presumptive screen; confirmation rate is method-dependent. Precipitation must not be counted separately.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Organism-specific method, such as ISO 21528; verify edition.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 21528 (edition pending)"
+      ],
+      "sources": [
+        "vrbga"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "pink-purple",
+        "appearance_summary": "Purple/red centres. Inspect weak or atypical appearances."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Colonies on violet red bile glucose agar are typically purple to pink, sometimes with a precipitation halo."
+    },
+    "MYP": {
+      "name": "Mannitol Egg Yolk Polymyxin Agar",
+      "abbreviations": [
+        "MYP"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M636F + FD003 + FD045F",
+      "application": "MYP",
+      "principle": "Mannitol/phenol red, polymyxin selection and egg-yolk lecithinase reaction.",
+      "positive_appearance": "Presumptive B. cereus: pink colonies and white precipitation.",
+      "negative_or_other_appearance": "Mannitol fermenters may be yellow; other lecithinase-positive organisms can interfere.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "B. cereus-group appearance is not definitive identification. Merck 105267 is a separate formulation and has not been audited here.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Sheet QC: 32°C for 18–40 h; follow controlled method.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "FDA BAM B. cereus",
+        "ISO 7932 (edition pending)"
+      ],
+      "sources": [
+        "myp"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "pink-purple",
+        "appearance_summary": "Pink/red colony-centre candidates. Review diffuse reaction zones separately."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Typical colonies on MYP are pink, sometimes with a surrounding precipitation zone."
+    },
+    "TSC": {
+      "name": "Tryptose Sulphite Cycloserine Agar",
+      "abbreviations": [
+        "TSC"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M837I + FD014",
+      "application": "TSC",
+      "principle": "Sulphite reduction with iron produces black growth; cycloserine provides selection.",
+      "positive_appearance": "Black presumptive colonies.",
+      "negative_or_other_appearance": "Other sulphite-reducing organisms may grow black.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Confirmation required. Excess incubation can blacken the background; dark writing and shadows interfere.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Sheet procedure: anaerobic 37°C, 20 ±2 h; sheet also lists QC intervals. Do not interchange them.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 7937:2004 cited by sheet; current method must be checked"
+      ],
+      "sources": [
+        "tsc"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "dark-centre",
+        "appearance_summary": "Dark colony centres."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Typical sulphite-reducing colonies on TSC are black."
+    },
+    "SFP": {
+      "name": "Shahidi-Ferguson Perfringens Agar",
+      "abbreviations": [
+        "SFP"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "BO0634M base; supplement identity to verify",
+      "application": "SFP",
+      "principle": "TSC/SFP shared base; SFP and TSC supplements are different and must be recorded.",
+      "positive_appearance": "Black sulphite-reducing presumptive growth; egg-yolk reaction depends on formulation.",
+      "negative_or_other_appearance": "Other sulphite reducers can resemble target growth.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Source base page does not establish the final SFP recipe or reading conditions.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Controlled SFP method required; unresolved source condition.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "sfp"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "dark-centre",
+        "appearance_summary": "Dark colony centres."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Typical sulphite-reducing colonies on SFP are black."
+    },
+    "MRS": {
+      "name": "de Man, Rogosa and Sharpe Agar",
+      "abbreviations": [
+        "MRS"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0361B/R/T",
+      "application": "MRS",
+      "principle": "Nutrient/glucose medium with acetate, citrate and growth factors; not highly selective.",
+      "positive_appearance": "QC colonies: pale straw, 0.5–2 mm; some pinpoint–3 mm.",
+      "negative_or_other_appearance": "Other organisms can grow; some LAB grow weakly or fail to grow.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Drying increases inhibition; faint growth and background contrast need review.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "IFU QC: 30°C, 72 h, microaerophilic.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 15214 (edition pending)"
+      ],
+      "sources": [
+        "mrs"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "bright",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "any",
+        "appearance_summary": "Bright or pale, small local contrast candidates; inspect pinpoint growth at high zoom."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "custom_settings": {
+        "min_radius_px": 0.6,
+        "min_contrast": 7.0
+      },
+      "count_description": "Colonies on MRS may be pale and pinpoint."
+    },
+    "Baird-Parker": {
+      "name": "Baird-Parker Agar",
+      "abbreviations": [
+        "Baird-Parker"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0275R plus method-specific egg-yolk tellurite supplement",
+      "application": "Baird-Parker",
+      "principle": "Tellurite reduction and egg-yolk reactions with selective components.",
+      "positive_appearance": "Dark/grey-black colonies; surrounding clear or opaque reactions are relevant.",
+      "negative_or_other_appearance": "Atypical strains and other staphylococci can interfere.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Confirm coagulase-positive identity. Reaction halos are not independent colonies.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Controlled coagulase-positive staphylococci method required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 6888 (part/edition pending)"
+      ],
+      "sources": [
+        "bp"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "dark-centre",
+        "appearance_summary": "Dark centres; review surrounding zones separately."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Typical colonies on Baird–Parker are dark grey to black, sometimes with surrounding reaction zones."
+    },
+    "MSA": {
+      "name": "Mannitol Salt Agar",
+      "abbreviations": [
+        "MSA"
+      ],
+      "manufacturer": "Remel / Thermo Scientific",
+      "catalogue": "IFU1580; product code not established",
+      "application": "MSA",
+      "principle": "7.5% salt selection; mannitol fermentation turns phenol red yellow.",
+      "positive_appearance": "Mannitol fermenters have yellow zones.",
+      "negative_or_other_appearance": "Non-fermenting staphylococci may have small colonies with red zones.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Mannitol fermentation is not coagulase confirmation; the supplied IFU describes qualitative isolation.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "IFU: ambient air 33–37°C, 24–48 h. Food enumeration suitability requires laboratory method evidence.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "msa"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "bright",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "golden",
+        "appearance_summary": "Golden/yellow centres; other colours remain available for review."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Mannitol-fermenting colonies on MSA may show yellow colour or a yellow surrounding zone."
+    },
+    "DRBC": {
+      "name": "Dichloran Rose Bengal Chloramphenicol Agar",
+      "abbreviations": [
+        "DRBC"
+      ],
+      "manufacturer": "Thermo Fisher Scientific",
+      "catalogue": "TM1339/TM1825/TM1794",
+      "application": "DRBC",
+      "principle": "Chloramphenicol inhibits bacteria; dichloran/rose bengal restrict spreading fungi.",
+      "positive_appearance": "Listed yeasts pink; Aspergillus control has white mycelium and black spores.",
+      "negative_or_other_appearance": "Some fungi are inhibited; rose bengal photo-oxidation is a limitation.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "Typical appearance is a guide only. The two configured radius ranges are image search settings, not biological limits. Scale them with the dish diameter.",
+      "limitations": "Shape alone cannot reliably distinguish all yeast and mould colonies.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Sheet QC: fungi up to 10 days at 27°C; not a substitute for ISO food reading conditions.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 21527-1 (method/edition to verify)"
+      ],
+      "sources": [
+        "drbc"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "both",
+        "fungal": true,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "any",
+        "appearance_summary": "Two size scales for compact yeast-like and broad mould-like candidates. Colour varies; use the plate image to verify.",
+        "radius_mm": {
+          "compact": [
+            0.21,
+            2.1
+          ],
+          "mould": [
+            2.4,
+            17.0
+          ]
+        }
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Yeasts can appear pink and smooth; moulds may be broad and filamentous, with varied colours."
+    },
+    "DG18": {
+      "name": "Dichloran 18% Glycerol Agar",
+      "abbreviations": [
+        "DG18"
+      ],
+      "manufacturer": "Merck Millipore",
+      "catalogue": "ReadyPlate 146161",
+      "application": "DG18",
+      "principle": "Glycerol reduces the medium water activity to about 0.95; dichloran restricts spreading.",
+      "positive_appearance": "Yeast and mould colonies require morphology review; no universal diagnostic colour.",
+      "negative_or_other_appearance": "Recovery varies among fungi.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "Typical appearance is a guide only. The two configured radius ranges are image search settings, not biological limits. Scale them with the dish diameter.",
+      "limitations": "ISO 21527-2 reference concerns products at water activity <=0.95; the catalogue description says <=0.9. Confirm scope against the chosen method.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Sheet: aerobically 24–26°C for 5–7 days; use the controlled method.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "ISO 21527-2:2008 cited; verify actual method"
+      ],
+      "sources": [
+        "dg18",
+        "dg18_oxoid"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "both",
+        "fungal": true,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "any",
+        "appearance_summary": "Two size scales for compact yeast-like and broad mould-like candidates. Colour varies; use the plate image to verify.",
+        "radius_mm": {
+          "compact": [
+            0.21,
+            2.1
+          ],
+          "mould": [
+            2.4,
+            16.0
+          ]
+        }
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Yeasts may be smooth and cream; moulds may have coloured spores or filamentous edges. Colours vary."
+    },
+    "PDA": {
+      "name": "Potato Dextrose Agar",
+      "abbreviations": [
+        "PDA"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0139B",
+      "application": "PDA",
+      "principle": "Potato/dextrose supports fungi; acidification/antibiotic variants must be recorded separately.",
+      "positive_appearance": "Smooth yeast-like or filamentous mould-like growth; colours vary.",
+      "negative_or_other_appearance": "Bacterial growth possible without appropriate inhibitory preparation.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "Typical appearance is a guide only. The two configured radius ranges are image search settings, not biological limits. Scale them with the dish diameter.",
+      "limitations": "The supplied photograph says PDA or DGA: actual medium is unresolved. No species label from morphology.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Exact variant, inhibitor and controlled food method required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "pda"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "both",
+        "fungal": true,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "any",
+        "appearance_summary": "Two size scales for compact yeast-like and broad mould-like candidates. Colour varies; use the plate image to verify.",
+        "radius_mm": {
+          "compact": [
+            0.21,
+            2.1
+          ],
+          "mould": [
+            2.6,
+            19.0
+          ]
+        }
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Yeast-like growth may be smooth and mould growth filamentous; colours vary."
+    },
+    "EMB": {
+      "name": "Eosin Methylene Blue Agar",
+      "abbreviations": [
+        "EMB"
+      ],
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0069B",
+      "application": "EMB",
+      "principle": "Lactose fermentation with eosin/methylene-blue dyes.",
+      "positive_appearance": "Strong lactose fermenters may be dark with metallic sheen.",
+      "negative_or_other_appearance": "Sheen is variable and not unique to E. coli.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "An appearance cue is not a complete E. coli confirmation method.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Controlled E. coli method and confirmation required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "emb"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Cetrimide": {
+      "name": "Cetrimide Agar Base",
+      "abbreviations": [
+        "Cetrimide"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M024",
+      "application": "Cetrimide",
+      "principle": "Cetrimide selection; constituents encourage pigment production.",
+      "positive_appearance": "Presumptive P. aeruginosa can be blue/blue-green or non-pigmented.",
+      "negative_or_other_appearance": "Other pigments and non-target growth can interfere.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Pigment varies with peptone and strains. Confirmation required; ordinary RGB photographs do not measure UV fluorescence.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Sheet describes 37°C, 18–24 h and separate QC conditions. Select the approved method.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "cetrimide"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Slanetz-Bartley": {
+      "name": "Slanetz and Bartley Medium",
+      "abbreviations": [
+        "Slanetz-Bartley"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M612",
+      "application": "Slanetz-Bartley",
+      "principle": "Sodium azide selection; TTC reduction gives intracellular red formazan.",
+      "positive_appearance": "Red/maroon presumptive enterococci; pale non-TTC-reducing colonies also require consideration.",
+      "negative_or_other_appearance": "Colony colour alone cannot confirm Enterococcus species.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Membrane and food-spread routes have different reading conditions; confirm intended use.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Food route in sheet: 35°C, 48 h; membrane route has separate staged incubation.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "slanetz"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "HiCrome-Bacillus": {
+      "name": "HiCrome Bacillus Agar Base",
+      "abbreviations": [
+        "HiCrome-Bacillus"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M1651; FD324 when required",
+      "application": "HiCrome-Bacillus",
+      "principle": "Chromogenic beta-glucosidase substrate plus mannitol/phenol red.",
+      "positive_appearance": "B. cereus-group appearance may be blue with distinct centres.",
+      "negative_or_other_appearance": "B. thuringiensis can also be blue/green; mannitol fermenters can be yellow.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Chromogenic appearance does not resolve B. cereus from its close relatives. Supplement choice matters.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Use the exact source formulation and controlled organism method.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "hicrome_bacillus"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "HiCrome-Ecoli": {
+      "name": "HiCrome E. coli Agar",
+      "abbreviations": [
+        "HiCrome-Ecoli"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M1295",
+      "application": "HiCrome-Ecoli",
+      "principle": "X-glucuronide reveals beta-glucuronidase activity; bile salts inhibit many Gram-positive organisms.",
+      "positive_appearance": "Bluish-green colonies.",
+      "negative_or_other_appearance": "Some E. coli lack the enzyme; some Salmonella may be enzyme-positive.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Manufacturer has a no-further-confirmation intended-use claim, but FoodMicro does not infer identity from RGB colour alone.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Sheet food procedure: 30°C 4 h, then 44°C 18 h; QC differs.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "hicrome_ec"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Petrifilm-REC": {
+      "name": "Petrifilm Rapid E. coli/Coliform Count Plate",
+      "abbreviations": [
+        "Petrifilm-REC"
+      ],
+      "manufacturer": "Neogen",
+      "catalogue": "SKU not confirmed",
+      "application": "Petrifilm-REC",
+      "principle": "Beta-glucuronidase blue precipitate; film traps fermentation gas.",
+      "positive_appearance": "REC: blue/blue-green colonies with or without gas; coliform inclusion depends on chosen definition.",
+      "negative_or_other_appearance": "Artefact bubbles are not colonies. Glucuronidase-negative E. coli are a limitation.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "FDA-style and ISO-style coliform counting definitions differ. Standard EC and rapid REC must use their own guides.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Use the validated product instructions for matrix/time/temperature.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "neogen_rec"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Petrifilm-AC": {
+      "name": "Petrifilm Aerobic Count Plate",
+      "abbreviations": [
+        "Petrifilm-AC"
+      ],
+      "manufacturer": "Neogen",
+      "catalogue": "SKU not confirmed",
+      "application": "Petrifilm-AC",
+      "principle": "Product-specific indicator system; exact plate IFU and interpretation guide still required.",
+      "positive_appearance": "See exact product guide; colony/gas/acid/zone relationships cannot be inferred from another film product.",
+      "negative_or_other_appearance": "Product formulations and validation claims differ.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Knowledge-only roadmap entry. Rectangular film and circular gel ROI, gas linkage and STX disk workflow are not implemented.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Unresolved; exact current IFU required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "neogen_reader"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Petrifilm-EB": {
+      "name": "Petrifilm Enterobacteriaceae Count Plate",
+      "abbreviations": [
+        "Petrifilm-EB"
+      ],
+      "manufacturer": "Neogen",
+      "catalogue": "SKU not confirmed",
+      "application": "Petrifilm-EB",
+      "principle": "Product-specific indicator system; exact plate IFU and interpretation guide still required.",
+      "positive_appearance": "See exact product guide; colony/gas/acid/zone relationships cannot be inferred from another film product.",
+      "negative_or_other_appearance": "Product formulations and validation claims differ.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Knowledge-only roadmap entry. Rectangular film and circular gel ROI, gas linkage and STX disk workflow are not implemented.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Unresolved; exact current IFU required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "neogen_reader"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Petrifilm-RYM": {
+      "name": "Petrifilm Rapid Yeast and Mold Plate",
+      "abbreviations": [
+        "Petrifilm-RYM"
+      ],
+      "manufacturer": "Neogen",
+      "catalogue": "SKU not confirmed",
+      "application": "Petrifilm-RYM",
+      "principle": "Product-specific indicator system; exact plate IFU and interpretation guide still required.",
+      "positive_appearance": "See exact product guide; colony/gas/acid/zone relationships cannot be inferred from another film product.",
+      "negative_or_other_appearance": "Product formulations and validation claims differ.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Knowledge-only roadmap entry. Rectangular film and circular gel ROI, gas linkage and STX disk workflow are not implemented.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Unresolved; exact current IFU required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "neogen_reader"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "Petrifilm-STX": {
+      "name": "Petrifilm Staph Express Plate",
+      "abbreviations": [
+        "Petrifilm-STX"
+      ],
+      "manufacturer": "Neogen",
+      "catalogue": "SKU not confirmed",
+      "application": "Petrifilm-STX",
+      "principle": "Product-specific indicator system; exact plate IFU and interpretation guide still required.",
+      "positive_appearance": "See exact product guide; colony/gas/acid/zone relationships cannot be inferred from another film product.",
+      "negative_or_other_appearance": "Product formulations and validation claims differ.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Knowledge-only roadmap entry. Rectangular film and circular gel ROI, gas linkage and STX disk workflow are not implemented.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Unresolved; exact current IFU required.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [],
+      "sources": [
+        "neogen_reader"
+      ],
+      "counting_enabled": false,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities"
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Knowledge only; counter unavailable"
+    },
+    "PCA-HiMedia": {
+      "name": "Plate Count Agar (Standard Methods Agar)",
+      "abbreviations": [
+        "PCA"
+      ],
+      "manufacturer": "HiMedia",
+      "catalogue": "M091",
+      "application": "Aerobic plate count",
+      "principle": "General growth medium; no differential species indicator.",
+      "positive_appearance": "QC colonies are straw, commonly 0.5–3 mm for listed strains. Mixed pale and pinpoint growth may occur.",
+      "negative_or_other_appearance": "No species-specific negative colour.",
+      "atypical_appearance": "Inspect deviations; colour and appearance alone do not exclude or confirm an organism.",
+      "size_shape": "See documented QC strains; image size limits are engineering settings, not universal biological sizes.",
+      "limitations": "Count reflects organisms recoverable under the chosen conditions; no species identification.",
+      "confirmation": "Use the controlled organism-specific laboratory method; morphology is presumptive.",
+      "incubation_reference": "Source QC: 30 ±2°C, 48 ±2 h or 72 ±3 h; FDA APC protocol differs.",
+      "incubation_scope": "Source QC/reading example only. Set the actual approved food method and edition independently.",
+      "standards": [
+        "FDA BAM APC January 2026",
+        "ISO 4833 (edition to be selected)",
+        "APHA 2015 (lab controlled copy needed)"
+      ],
+      "sources": [
+        "himedia-pca-m091"
+      ],
+      "counting_enabled": true,
+      "vision": {
+        "polarity": "both",
+        "fungal": false,
+        "halo_handling": "Candidate centres from local contrast; large reaction zones can still cause errors. Manual review required.",
+        "parameters_status": "provisional engineering presets; no learned classifier or calibrated probabilities",
+        "appearance_rule": "any",
+        "appearance_summary": "Candidates across colony colours. Start with both bright and dark local contrast."
+      },
+      "vision_implications": "Review faint, touching and atypical growth; one centre per colony. Halo recognition is not validated.",
+      "evidence_status": "Manufacturer source reviewed; image counter experimental",
+      "count_description": "Colonies vary in colour and size on plate count agar."
+    },
+    "MacConkey": {
+      "name": "MacConkey Agar",
+      "manufacturer": "Thermo Scientific Oxoid",
+      "catalogue": "CM0007",
+      "application": "Presumptive lactose-fermenting colony appearance; follow the selected lab method",
+      "principle": "Differential lactose reaction with colour indicator",
+      "positive_appearance": "Red/pink colonies can be seen in lactose-fermenting organisms.",
+      "negative_or_other_appearance": "Other appearances require review according to the selected method.",
+      "limitations": "Appearance does not distinguish coliform groups or confirm E. coli. Verify that this formulation and method are appropriate.",
+      "confirmation": "Follow the laboratory-approved test and confirmation procedure.",
+      "counting_enabled": true,
+      "sources": [
+        "oxoid-macconkey-cm0007"
+      ],
+      "evidence_status": "Manufacturer product reference; experimental image rules",
+      "vision": {
+        "polarity": "dark",
+        "fungal": false,
+        "appearance_rule": "pink-purple",
+        "appearance_summary": "Propose pink/red centres; inspect atypical or faint objects separately."
+      },
+      "count_description": "Lactose-fermenting colonies on MacConkey may be pink or red."
+    }
+  },
+  "scope": "Research starter for food plates. None of these image counters is laboratory validated."
+}

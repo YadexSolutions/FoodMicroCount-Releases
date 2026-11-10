@@ -1,0 +1,9 @@
+FOODMICRO COUNT  |  FIRST RUN
+
+1. Open FoodMicro Count from the Start menu and enter your analyst name.
+2. Open the Beginner's Guide from the same Start menu group.
+3. Try the practice image in the installed demo folder. Its file name is synthetic_plates.png.
+4. Choose PCA and Quick Count, verify both proposed plates, then run detection one plate at a time.
+5. Inspect the markers and use Save session or Export results after review.
+
+The program folder contains the guide, licence, third-party notices and source archive.

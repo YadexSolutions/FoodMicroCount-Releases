@@ -1,0 +1,60 @@
+{
+  "version": "0.1.0",
+  "methods": {
+    "basic_exposure_v1": {
+      "name": "Exposure calculation v1 (experimental; one retained dilution)",
+      "min": 25,
+      "max": 250,
+      "convention": "single",
+      "verified_source": "Arithmetic relationship only",
+      "reporting_approved": false,
+      "rounding": "half_up"
+    },
+    "handbook_apha_2026": {
+      "name": "Handbook APHA-style 2026 (educational; lab approval pending)",
+      "min": 25,
+      "max": 250,
+      "convention": "handbook",
+      "verified_source": "User handbook, Chapters 2\u20133",
+      "reporting_approved": false,
+      "rounding": "half_up"
+    },
+    "handbook_fungi_2026": {
+      "name": "Handbook fungi 2026 (10\u2013150; educational)",
+      "min": 10,
+      "max": 150,
+      "convention": "handbook",
+      "verified_source": "User handbook; exact fungal method pending",
+      "reporting_approved": false,
+      "rounding": "half_up"
+    },
+    "bam_apc_2026_numeric": {
+      "name": "FDA BAM APC January 2026 (numeric observations; TNTC MLE unavailable)",
+      "min": 15,
+      "max": 300,
+      "convention": "pooled",
+      "verified_source": "FDA BAM Ch.3 January 2026 pp.5\u20138",
+      "reporting_approved": false,
+      "rounding": "half_even",
+      "test": "APC"
+    },
+    "iso7218_2007_2013_arithmetic": {
+      "name": "ISO 7218:2007/Amd 2013 arithmetic sandbox (selection NOT verified)",
+      "min": 10,
+      "max": 300,
+      "convention": "historical_weighted",
+      "verified_source": "User handbook Chapter 4; full standard unavailable",
+      "reporting_approved": false,
+      "rounding": "half_up"
+    },
+    "iso7218_2024": {
+      "name": "ISO 7218:2024 \u2014 blocked until controlled calculation clauses verified",
+      "min": null,
+      "max": null,
+      "convention": "blocked",
+      "verified_source": "ISO official edition metadata only",
+      "reporting_approved": false,
+      "rounding": "half_even"
+    }
+  }
+}

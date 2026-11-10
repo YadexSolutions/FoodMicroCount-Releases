@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foodmicro-count"
+dynamic = ["version"]
+description = "Offline food microbiology colony counter"
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+license = "GPL-3.0-or-later"
+dependencies = [
+  "numpy>=1.26,<3", "scipy>=1.11,<2", "Pillow>=10,<13",
+  "opencv-python-headless>=4.9,<6", "scikit-image>=0.24,<0.27",
+  "PySide6-Essentials>=6.8,<6.13", "openpyxl>=3.1,<4"
+]
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pyinstaller>=6,<7"]
+[project.scripts]
+foodmicro-count = "foodmicro.app:main"
+foodmicro-cli = "foodmicro.cli:main"
+[tool.setuptools.dynamic]
+version = {attr = "foodmicro.__version__"}
+
+[tool.setuptools.package-data]
+foodmicro = ["data/*.json", "assets/*.png", "assets/*.ico", "assets/*.xlsx"]
+[tool.setuptools.packages.find]
+include = ["foodmicro*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
